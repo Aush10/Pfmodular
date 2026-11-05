@@ -1,0 +1,6 @@
+{
+  "name": "Pathfinder 1e Modular Workspace",
+  "description": "Modular 3-part Pathfinder 1e character sheet and workspace with blueprint drafting, custom formula language, automated calculations, and tablet-ready parchment view.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
