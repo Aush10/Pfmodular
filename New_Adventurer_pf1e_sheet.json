@@ -1,0 +1,968 @@
+{
+  "name": "New Adventurer",
+  "player": "",
+  "alignment": "Neutral",
+  "characterClass": "Fighter",
+  "level": 1,
+  "race": "Human",
+  "deity": "",
+  "size": "Medium",
+  "gender": "Male",
+  "age": 20,
+  "height": "5'10\"",
+  "weight": "165 lbs",
+  "eyes": "",
+  "hair": "",
+  "campaign": "",
+  "currentXP": 0,
+  "nextLevelXP": 2000,
+  "heroPoints": 1,
+  "classes": [
+    {
+      "id": "cls-1",
+      "name": "Fighter",
+      "level": 1,
+      "hitDie": 10,
+      "skillPointsPerLevel": 2,
+      "babProgression": "full",
+      "isFavoredClass": true
+    }
+  ],
+  "deathSaves": [
+    false,
+    false,
+    false
+  ],
+  "combatTracker": {
+    "round": 1,
+    "turn": 1,
+    "isInCombat": false
+  },
+  "classSkillPointsPerLevel": 2,
+  "abilities": {
+    "STR": {
+      "name": "STR",
+      "base": 10,
+      "raceMod": 0,
+      "levelAsiMod": 0,
+      "enhMod": 0,
+      "miscMod": 0,
+      "tempMod": 0
+    },
+    "DEX": {
+      "name": "DEX",
+      "base": 10,
+      "raceMod": 0,
+      "levelAsiMod": 0,
+      "enhMod": 0,
+      "miscMod": 0,
+      "tempMod": 0
+    },
+    "CON": {
+      "name": "CON",
+      "base": 10,
+      "raceMod": 0,
+      "levelAsiMod": 0,
+      "enhMod": 0,
+      "miscMod": 0,
+      "tempMod": 0
+    },
+    "INT": {
+      "name": "INT",
+      "base": 10,
+      "raceMod": 0,
+      "levelAsiMod": 0,
+      "enhMod": 0,
+      "miscMod": 0,
+      "tempMod": 0
+    },
+    "WIS": {
+      "name": "WIS",
+      "base": 10,
+      "raceMod": 0,
+      "levelAsiMod": 0,
+      "enhMod": 0,
+      "miscMod": 0,
+      "tempMod": 0
+    },
+    "CHA": {
+      "name": "CHA",
+      "base": 10,
+      "raceMod": 0,
+      "levelAsiMod": 0,
+      "enhMod": 0,
+      "miscMod": 0,
+      "tempMod": 0
+    }
+  },
+  "hpTotalMax": 10,
+  "hpCurrent": 10,
+  "hpNonlethal": 0,
+  "hpTemp": 0,
+  "hitDice": "1d10",
+  "hpBreakdown": {
+    "calcMethod": "max",
+    "hitDiceCount": 1,
+    "hitDiceSize": 10,
+    "hitDiceRolledBase": 10,
+    "additionalBonuses": []
+  },
+  "damageReduction": "",
+  "fastHealing": "",
+  "spellResistance": 0,
+  "resistances": "",
+  "immunities": "",
+  "buffBox": {
+    "Enhancement": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Circumstance": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Competence": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Deflection": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Dodge": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Insight": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Item": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Inherent": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Luck": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Morale": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Pro/Sac": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Race": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "NAT armor": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Armor": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Level advance": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Shield": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Untyped": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Size": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+    "Alt size": {
+      "hp": 0,
+      "mattack": 0,
+      "rattack": 0,
+      "fort": 0,
+      "ref": 0,
+      "will": 0,
+      "ac": 0,
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    }
+  },
+  "customBuffs": [],
+  "initMiscMod": 0,
+  "speedBase": 30,
+  "speedClimb": 0,
+  "speedSwim": 0,
+  "speedFly": 0,
+  "flyManeuverability": "Average",
+  "baseAttackBonus": 1,
+  "naturalArmorMod": 0,
+  "deflectionMod": 0,
+  "dodgeMod": 0,
+  "acMiscMod": 0,
+  "saves": {
+    "fortitude": {
+      "name": "Fortitude",
+      "base": 2,
+      "magicMod": 0,
+      "miscMod": 0,
+      "tempMod": 0
+    },
+    "reflex": {
+      "name": "Reflex",
+      "base": 0,
+      "magicMod": 0,
+      "miscMod": 0,
+      "tempMod": 0
+    },
+    "will": {
+      "name": "Will",
+      "base": 0,
+      "magicMod": 0,
+      "miscMod": 0,
+      "tempMod": 0
+    }
+  },
+  "weapons": [
+    {
+      "id": "wp-1793487022524-1",
+      "name": "Longsword",
+      "category": "Melee",
+      "damageFormula": "1d8 + str_mod",
+      "critical": "19-20/x2",
+      "range": "Melee",
+      "damageType": "Slashing",
+      "weight": 4,
+      "isEquipped": true
+    }
+  ],
+  "armor": [
+    {
+      "id": "ar-1793487022524-1",
+      "name": "Shirt",
+      "type": "Light",
+      "acBonus": 0,
+      "maxDex": 20,
+      "checkPenalty": 0,
+      "spellFailure": 0,
+      "speed30": 30,
+      "weight": 5,
+      "isEquipped": true
+    }
+  ],
+  "featsAndAbilities": [
+    "Power Attack",
+    "Weapon Focus (Longsword)"
+  ],
+  "skills": [
+    {
+      "id": "sk-1",
+      "name": "Acrobatics",
+      "keyAbility": "DEX",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": true,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-2",
+      "name": "Appraise",
+      "keyAbility": "INT",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-3",
+      "name": "Bluff",
+      "keyAbility": "CHA",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-4",
+      "name": "Climb",
+      "keyAbility": "STR",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": true,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-5",
+      "name": "Craft (Alchemy)",
+      "keyAbility": "INT",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-6",
+      "name": "Diplomacy",
+      "keyAbility": "CHA",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-7",
+      "name": "Disable Device",
+      "keyAbility": "DEX",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": true,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-8",
+      "name": "Disguise",
+      "keyAbility": "CHA",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-9",
+      "name": "Escape Artist",
+      "keyAbility": "DEX",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": true,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-10",
+      "name": "Fly",
+      "keyAbility": "DEX",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": true,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-11",
+      "name": "Handle Animal",
+      "keyAbility": "CHA",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-12",
+      "name": "Heal",
+      "keyAbility": "WIS",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-13",
+      "name": "Intimidate",
+      "keyAbility": "CHA",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-14",
+      "name": "Knowledge (Arcana)",
+      "keyAbility": "INT",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-15",
+      "name": "Knowledge (Dungeoneering)",
+      "keyAbility": "INT",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-16",
+      "name": "Knowledge (Engineering)",
+      "keyAbility": "INT",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-17",
+      "name": "Knowledge (Geography)",
+      "keyAbility": "INT",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-18",
+      "name": "Knowledge (History)",
+      "keyAbility": "INT",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-19",
+      "name": "Knowledge (Local)",
+      "keyAbility": "INT",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-20",
+      "name": "Knowledge (Nature)",
+      "keyAbility": "INT",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-21",
+      "name": "Knowledge (Nobility)",
+      "keyAbility": "INT",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-22",
+      "name": "Knowledge (Planes)",
+      "keyAbility": "INT",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-23",
+      "name": "Knowledge (Religion)",
+      "keyAbility": "INT",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-24",
+      "name": "Linguistics",
+      "keyAbility": "INT",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-25",
+      "name": "Perception",
+      "keyAbility": "WIS",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-26",
+      "name": "Perform (Oratory)",
+      "keyAbility": "CHA",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-27",
+      "name": "Profession (Soldier)",
+      "keyAbility": "WIS",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-28",
+      "name": "Ride",
+      "keyAbility": "DEX",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": true,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-29",
+      "name": "Sense Motive",
+      "keyAbility": "WIS",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-30",
+      "name": "Sleight of Hand",
+      "keyAbility": "DEX",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": true,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-31",
+      "name": "Spellcraft",
+      "keyAbility": "INT",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    },
+    {
+      "id": "sk-32",
+      "name": "Stealth",
+      "keyAbility": "DEX",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": true,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-33",
+      "name": "Survival",
+      "keyAbility": "WIS",
+      "isClassSkill": false,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-34",
+      "name": "Swim",
+      "keyAbility": "STR",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": true,
+      "isTrainedOnly": false
+    },
+    {
+      "id": "sk-35",
+      "name": "Use Magic Device",
+      "keyAbility": "CHA",
+      "isClassSkill": true,
+      "ranks": 0,
+      "miscMod": 0,
+      "hasArmorCheckPenalty": false,
+      "isTrainedOnly": true
+    }
+  ],
+  "favoredClassSkillRanks": 1,
+  "inventory": [
+    {
+      "id": "inv-1793487022524-1",
+      "name": "Backpack (Leather)",
+      "quantity": 1,
+      "weight": 2,
+      "location": "Back",
+      "storageType": "worn",
+      "category": "Gear",
+      "isEquipped": true,
+      "valueGp": 2,
+      "shortDescription": "Standard sturdy adventurer backpack."
+    },
+    {
+      "id": "inv-1793487022524-2",
+      "name": "Bedroll & Blanket",
+      "quantity": 1,
+      "weight": 5,
+      "location": "Backpack",
+      "storageType": "stored",
+      "category": "Gear",
+      "valueGp": 0.5
+    },
+    {
+      "id": "inv-1793487022524-3",
+      "name": "Trail Rations (5 days)",
+      "quantity": 5,
+      "weight": 5,
+      "location": "Backpack",
+      "storageType": "stored",
+      "category": "Gear",
+      "valueGp": 2.5
+    },
+    {
+      "id": "inv-1793487022524-4",
+      "name": "Waterskin",
+      "quantity": 1,
+      "weight": 4,
+      "location": "Backpack",
+      "storageType": "stored",
+      "category": "Gear",
+      "valueGp": 1
+    },
+    {
+      "id": "inv-1793487022524-5",
+      "name": "Torches (5)",
+      "quantity": 5,
+      "weight": 5,
+      "location": "Backpack",
+      "storageType": "stored",
+      "category": "Gear",
+      "valueGp": 0.05
+    }
+  ],
+  "droppedBags": {},
+  "currency": {
+    "cp": 0,
+    "sp": 0,
+    "gp": 50,
+    "pp": 0
+  },
+  "languages": [
+    "Common"
+  ],
+  "casterLevel": 0,
+  "spellKeyAbility": "INT",
+  "spellSlots": [],
+  "spells": [],
+  "conditions": {
+    "blinded": false,
+    "cowering": false,
+    "dazzled": false,
+    "deafened": false,
+    "entangled": false,
+    "exhausted": false,
+    "fatigued": false,
+    "frightened": false,
+    "grappled": false,
+    "panicked": false,
+    "pinned": false,
+    "prone": false,
+    "shaken": false,
+    "sickened": false,
+    "stunned": false,
+    "haste": false,
+    "prayer": false,
+    "enlarge": false,
+    "reduce": false,
+    "heroism": false
+  },
+  "customObjects": [],
+  "biography": {
+    "description": "",
+    "personality": "",
+    "traits": "",
+    "flaws": "",
+    "allies": "",
+    "enemies": "",
+    "notes": ""
+  },
+  "characterBio": {
+    "scratchpad": "== Character Notes ==\n- Session 1 notes...",
+    "portraits": [],
+    "currentPortraitIndex": 0,
+    "bioSections": [
+      {
+        "id": "bio-bg-new",
+        "title": "Background & Origins",
+        "content": ""
+      }
+    ],
+    "skin": ""
+  },
+  "profileData": {
+    "avatarUrl": "",
+    "customFields": [
+      {
+        "id": "f-1",
+        "title": "Physical Appearance & Attire",
+        "content": ""
+      },
+      {
+        "id": "f-2",
+        "title": "Backstory & Bloodline",
+        "content": ""
+      },
+      {
+        "id": "f-3",
+        "title": "Deity & Code of Conduct",
+        "content": ""
+      }
+    ]
+  },
+  "magicItemSlots": {},
+  "companions": [],
+  "downtimeCapital": {
+    "currentGp": 50,
+    "bankGp": 0,
+    "level": 1,
+    "totalDp": 0,
+    "goods": 0,
+    "influence": 0,
+    "labor": 0,
+    "magic": 0,
+    "kbp": 0
+  },
+  "activeStorageTab": "worn"
+}
